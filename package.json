@@ -1,0 +1,19 @@
+{
+  "name": "demo-chrome-extension",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keitamizuochi/demo-chrome-extension.git"
+  },
+  "author": "Keita Mizuochi",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/keitamizuochi/demo-chrome-extension/issues"
+  },
+  "homepage": "https://github.com/keitamizuochi/demo-chrome-extension#readme"
+}
