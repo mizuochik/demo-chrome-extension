@@ -1,0 +1,16 @@
+{
+        "name": "demo",
+        "description": "Demonstrate implementing a Chrome extension",
+        "version": "1.0",
+        "manifest_version": 2,
+        "content_scripts": [
+                {
+                        "matches": [
+                                "http://localhost:*/*"
+                        ],
+                        "js": [
+                                "main.js"
+                        ]
+                }
+        ]
+}
