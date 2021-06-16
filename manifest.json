@@ -9,7 +9,7 @@
                                 "http://localhost:*/*"
                         ],
                         "js": [
-                                "main.js"
+                                "dist.js"
                         ]
                 }
         ]
