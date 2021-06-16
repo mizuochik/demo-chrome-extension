@@ -1,5 +1,9 @@
-const hoge = () => {
-        console.log('hello, world');
-};
+import { LoggingUseCase } from "./useCase/loggingUseCase";
 
-hoge();
+const luc = new LoggingUseCase();
+
+let loop = () => {
+        setTimeout(loop, 1000)
+        luc.log('hello Chrome');
+};
+loop();
